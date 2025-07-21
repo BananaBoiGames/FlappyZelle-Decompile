@@ -1,0 +1,13 @@
+bgspd = ds_list_create();
+ds_list_add(bgspd, 0.1);
+ds_list_add(bgspd, 0.3);
+ds_list_add(bgspd, 0.5);
+ds_list_add(bgspd, 1);
+ds_list_add(bgspd, 1.5);
+ds_list_add(bgspd, 2);
+ds_list_add(bgspd, 3.5);
+timer = 0;
+nextbg = spr_flappybg2;
+cancel = false;
+trigger = false;
+rainalp = 0;
